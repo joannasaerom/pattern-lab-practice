@@ -1,0 +1,31 @@
+<section>
+	<h2>Get in touch</h2>
+	<form method="post" action="#">
+
+    {% include '@atoms/input.twig' with {
+      class: 'field half first',
+      inputType: 'text',
+      name: 'name',
+      placeholder: 'Name'
+    } %}
+
+		{% include '@atoms/input.twig' with {
+      class: 'field half',
+      inputType: 'email',
+      name: 'email',
+      placeholder: 'Email'
+    } %}
+
+		{% include '@atoms/textarea.twig' with {
+      class: 'field',
+      name: 'message',
+      placeholder: 'Message'
+    } %}
+
+		{% include '@atoms/button.twig' with {
+      type: 'submit',
+      buttonText: 'Send'
+    } %}
+
+	</form>
+</section>

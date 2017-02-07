@@ -29,15 +29,21 @@ component-libraries:
       - source/_patterns/01-atoms/01-typography/text
       - source/_patterns/01-atoms/buttons
       - source/_patterns/01-atoms/images
+      - source/_patterns/01-atoms/input
+      - source/_patterns/01-atoms/textarea
   molecules:
     paths:
       - source/_patterns/02-molecules
       - source/_patterns/02-molecules/box-thumbnail
       - source/_patterns/02-molecules/branding
       - source/_patterns/02-molecules/caption-block
+      - source/_patterns/02-molecules/contact-form
+      - source/_patterns/02-molecules/main-navbar
+      - source/_patterns/02-molecules/social-media
   organisms:
     paths:
       - source/_patterns/03-organisms
+      - source/_patterns/03-organisms/footer
       - source/_patterns/03-organisms/grids/caption-grid-block
       - source/_patterns/03-organisms/site/site-footer
       - source/_patterns/03-organisms/site/site-header
@@ -46,6 +52,7 @@ component-libraries:
     paths:
       - source/_patterns/04-templates
       - source/_patterns/04-templates/content-types
+      - source/_patterns/04-templates/phantom-layout
   pages:
     paths:
       - source/_patterns/05-pages

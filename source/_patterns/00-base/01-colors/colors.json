@@ -1,58 +1,68 @@
 {
   "items": [
     {
-      "name": "$c-red",
-      "value": "hsl(352, 92%, 38%)",
-      "comment": "Primary Color. Used for links"
-    },
-    {
-      "name": "$c-blue",
-      "value": "hsl(208, 100%, 50%)",
+      "name": "$c-bg",
+      "value": "#ffffff",
       "comment": ""
     },
     {
-      "name": "$c-white",
-      "value": "white",
+      "name": "$c-bg-accent",
+      "value": "#333333",
       "comment": ""
     },
     {
-      "name": "$c-gray--lightest",
-      "value": "hsl(0, 0%, 89%)",
+      "name": "$c-bg-alt",
+      "value": "#f6f6f6",
       "comment": ""
     },
     {
-      "name": "$c-gray--lighter",
-      "value": "hsl(0, 0%, 80%)",
+      "name": "$c-fg",
+      "value": "#585858",
       "comment": ""
     },
     {
-      "name": "$c-gray--light",
-      "value": "hsl(0, 0%, 60%)",
+      "name": "$c-fg-accent",
+      "value": "#ffffff",
       "comment": ""
     },
     {
-      "name": "$c-gray",
-      "value": "hsl(0, 0%, 48%)",
+      "name": "$c-border",
+      "value": "#c9c9c9",
       "comment": ""
     },
     {
-      "name": "$c-gray--dark",
-      "value": "hsl(0, 0%, 40%)",
+      "name": "$c-border-bg",
+      "value": "rgba(144,144,144,0.075)",
       "comment": ""
     },
     {
-      "name": "$c-gray--darker",
-      "value": "hsl(0, 0%, 20%)",
+      "name": "$c-accent1",
+      "value": "#f2849e",
       "comment": ""
     },
     {
-      "name": "$c-gray--darkest",
-      "value": "hsl(0, 0%, 16.1%)",
+      "name": "$c-accent2",
+      "value": "#7ecaf6",
       "comment": ""
     },
     {
-      "name": "$c-black",
-      "value": "black",
+      "name": "$c-accent3",
+      "value": "#7bd0c1",
+      "comment": ""
+    },
+    {
+      "name": "$c-accent4",
+      "value": "#c75b9b",
+      "comment": ""
+    },
+    {
+      "name": "$c-accent5",
+      "value": "#ae85ca",
+      "comment": ""
+    },
+    {
+      "name": "$c-accent6",
+      "value": "#8499e7",
       "comment": ""
     }
   ],
