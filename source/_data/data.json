@@ -13,6 +13,7 @@
     "medium": "Faker.sentences(2, true)",
     "long": "Faker.paragraph"
   },
+  "content": "Faker.sentences(2, true)",
   "description": "Faker.paragraphs(2, true)",
   "url": "http://example.com",
   "name": {
