@@ -36,7 +36,6 @@ component-libraries:
       - source/_patterns/02-molecules
       - source/_patterns/02-molecules/box-thumbnail
       - source/_patterns/02-molecules/branding
-      - source/_patterns/02-molecules/caption-block
       - source/_patterns/02-molecules/contact-form
       - source/_patterns/02-molecules/main-navbar
       - source/_patterns/02-molecules/social-media
