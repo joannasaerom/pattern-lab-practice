@@ -1,0 +1,10 @@
+<nav id="menu">
+	<h2>Menu</h2>
+	<ul>
+    {% for item in items %}
+		<li>
+      <a href="{{ item.url }}"> {{ item.label }}</a>
+    </li>
+    {% endfor %}
+	</ul>
+</nav>

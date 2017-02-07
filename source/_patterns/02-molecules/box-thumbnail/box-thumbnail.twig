@@ -2,10 +2,15 @@
 	<span class="image">
 		<img src="{{ img }}" alt="" />
 	</span>
-	<a href="{{ link }}">
+  {% if link %}
+	  <a href="{{ link }}">
+  {% endif %}
 		{% if title %}<h2>{{ title }}</h2>{% endif %}
 			<div class="content">
 				<p>{{ content }}</p>
 			</div>
-	</a>
+  {% if link %}
+    </a>
+  {% endif %}
+
 </article>
