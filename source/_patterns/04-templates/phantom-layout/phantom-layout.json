@@ -1,3 +1,24 @@
 {
-
+  "heading": "This is Phantom, a free, fully responsive site <br> template designed by HTML5 UP.",
+  "content": "Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.",
+  "items": [
+    {
+      "style": "style1",
+      "img": "../../../../images/pic01.jpg",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "style": "style2",
+      "img": "../../../../images/pic02.jpg",
+      "title": "Lorem",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "style": "style3",
+      "img": "../../../../images/pic03.jpg",
+      "title": "Feugiat",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    }
+  ]
 }

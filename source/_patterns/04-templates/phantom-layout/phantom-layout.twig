@@ -1,3 +1,8 @@
-<div class="phantom-layout">
-
+<div id="wrapper">
+  {% include "@organisms/header.twig" %}
+  {% include "@organisms/main-content.twig" with {
+  heading: heading,
+  content: content
+  } %}
+  {% include "@organisms/footer.twig" %}
 </div>
