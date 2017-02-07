@@ -81,6 +81,7 @@ plugins:
           - ../source/_patterns/03-organisms/footer
           - ../source/_patterns/03-organisms/grids/caption-grid-block
           - ../source/_patterns/03-organisms/header
+          - ../source/_patterns/03-organisms/main-content
           - ../source/_patterns/03-organisms/thumbnail-grid
       templates:
         paths:

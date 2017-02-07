@@ -1,0 +1,36 @@
+<div id="main">
+  <div class="inner">
+    <header>
+      <h1>{{ heading }}</h1>
+      <p>{{ content }}</p>
+    </header>
+
+    {% include "@organisms/thumbnail-grid.twig" with {
+      style: item.style,
+      img: item.img,
+      title: item.title,
+      content: item.content
+    } %}
+
+    {% include "@organisms/thumbnail-grid.twig" with {
+      style: item.style,
+      img: item.img,
+      title: item.title,
+      content: item.content
+    } %}
+
+    {% include "@organisms/thumbnail-grid.twig" with {
+      style: item.style,
+      img: item.img,
+      title: item.title,
+      content: item.content
+    } %}
+
+    {% include "@organisms/thumbnail-grid.twig" with {
+      style: item.style,
+      img: item.img,
+      title: item.title,
+      content: item.content
+    } %}
+  </div>
+</div>
