@@ -15,6 +15,7 @@
 	});
 
 	$(function() {
+
 		var	$window = $(window),
 			$body = $('body');
 
@@ -25,7 +26,6 @@
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
 				}, 100);
-
 			});
 
 		// Touch?
@@ -92,15 +92,15 @@
 				});
 
 			// Fix: Placeholder polyfill.
-				$form.placeholder();
+				// $form.placeholder();
 
 		// Prioritize "important" elements on medium.
-			skel.on('+medium -medium', function() {
-				$.prioritize(
-					'.important\\28 medium\\29',
-					skel.breakpoint('medium').active
-				);
-			});
+			// skel.on('+medium -medium', function() {
+			// 	$.prioritize(
+			// 		'.important\\28 medium\\29',
+			// 		skel.breakpoint('medium').active
+			// 	);
+			// });
 
 		// Menu.
 			var $menu = $('#menu');
@@ -149,7 +149,6 @@
 				.appendTo($body)
 				.on('click', function(event) {
 					event.stopPropagation();
-					
 				})
 				.on('click', 'a', function(event) {
 
@@ -174,7 +173,7 @@
 
 			$body
 				.on('click', 'a[href="#menu"]', function(event) {
-					console.log("clicked");
+
 					event.stopPropagation();
 					event.preventDefault();
 
