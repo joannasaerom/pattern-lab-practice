@@ -1,36 +1,44 @@
 <div id="main">
   <div class="inner">
     <header>
-      <h1>{{ heading }}</h1>
+      <h1>{{ title }}</h1>
       <p>{{ content }}</p>
     </header>
 
     {% include "@organisms/thumbnail-grid.twig" with {
-      style: item.style,
-      img: item.img,
-      title: item.title,
-      content: item.content
+      boxStyle: item.style,
+      boxImg: item.img,
+      boxTitle: item.title,
+      boxContent: item.content,
+      boxAlt: item.alt,
+      boxLink: item.link
     } %}
 
     {% include "@organisms/thumbnail-grid.twig" with {
-      style: item.style,
-      img: item.img,
-      title: item.title,
-      content: item.content
+      boxStyle: item.style,
+      boxImg: item.img,
+      boxTitle: item.title,
+      boxContent: item.content,
+      boxAlt: item.alt,
+      boxLink: item.link
     } %}
 
     {% include "@organisms/thumbnail-grid.twig" with {
-      style: item.style,
-      img: item.img,
-      title: item.title,
-      content: item.content
+      boxStyle: item.style,
+      boxImg: item.img,
+      boxTitle: item.title,
+      boxContent: item.content,
+      boxAlt: item.alt,
+      boxLink: item.link
     } %}
 
     {% include "@organisms/thumbnail-grid.twig" with {
-      style: item.style,
-      img: item.img,
-      title: item.title,
-      content: item.content
+      boxStyle: item.style,
+      boxImg: item.img,
+      boxTitle: item.title,
+      boxContent: item.content,
+      boxAlt: item.alt,
+      boxLink: item.link
     } %}
   </div>
 </div>

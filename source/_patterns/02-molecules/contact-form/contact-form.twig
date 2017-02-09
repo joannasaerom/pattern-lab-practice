@@ -3,26 +3,26 @@
 	<form method="post" action="#">
 
     {% include '@atoms/input.twig' with {
-      class: 'field half first',
+      inputClass: 'field half first',
       inputType: 'text',
-      name: 'name',
-      placeholder: 'Name'
+      inputName: 'name',
+      inputPlaceholder: 'Name'
     } %}
 
 		{% include '@atoms/input.twig' with {
-      class: 'field half',
+      inputClass: 'field half',
       inputType: 'email',
-      name: 'email',
-      placeholder: 'Email'
+      inputName: 'email',
+      inputPlaceholder: 'Email'
     } %}
 
 		{% include '@atoms/textarea.twig' with {
-      class: 'field',
-      name: 'message',
-      placeholder: 'Message'
+      inputClass: 'field',
+      inputName: 'message',
+      inputPlaceholder: 'Message'
     } %}
 
-		{% include '@atoms/button.twig' with {
+		{% include '@atoms/form-button.twig' with {
       type: 'submit',
       buttonText: 'Send'
     } %}

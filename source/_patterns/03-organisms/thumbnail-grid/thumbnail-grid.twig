@@ -1,10 +1,12 @@
 <section class="tiles">
   {% for item in items %}
     {% include "@molecules/box-thumbnail.twig" with {
-      style: item.style,
-      img: item.img,
-      title: item.title,
-      content: item.content
+      boxStyle: item.style,
+      boxImg: item.img,
+      boxTitle: item.title,
+      boxContent: item.content,
+      boxAlt: item.alt,
+      boxLink: item.link
     } %}
 
   {% endfor %}
