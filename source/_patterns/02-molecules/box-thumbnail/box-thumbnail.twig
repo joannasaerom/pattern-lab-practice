@@ -1,16 +1,15 @@
-<article class="{{ style }}">
+<article class="{{ boxStyle }}">
 	<span class="image">
-		<img src="{{ img }}" alt="" />
+		<img src="{{ boxImg }}" alt="{{boxAlt}}" />
 	</span>
-  {% if link %}
-	  <a href="{{ link }}">
+  {% if boxLink %}
+	  <a href="{{ boxLink }}">
   {% endif %}
-		{% if title %}<h2>{{ title }}</h2>{% endif %}
+		{% if boxTitle %}<h2>{{ boxTitle }}</h2>{% endif %}
 			<div class="content">
-				<p>{{ content }}</p>
+				<p>{{ boxContent }}</p>
 			</div>
-  {% if link %}
+  {% if boxLink %}
     </a>
   {% endif %}
-
 </article>

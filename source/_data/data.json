@@ -1,4 +1,24 @@
 {
+  "button": {
+    "type": "submit",
+    "text": "Send",
+    "link": "#menu"
+  },
+  "inputClass": "field half",
+  "inputType": "text",
+  "inputName": "name",
+  "inputPlaceholder": "Name",
+  "logo": {
+    "src": "../../../../images/logo.svg"
+  },
+  "boxStyle": "style1",
+  "boxImg": "../../../../images/pic01.jpg",
+  "boxLink": "http://example.com",
+  "boxTitle": "Magna",
+  "boxContent": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+  "boxAlt": "test",
+  "iconClass": "icon style2 fa-twitter",
+  "iconLabel": "Twitter",
   "pl": true,
   "title": "Faker.words(2, true)",
   "text": "Faker.words(3, true)",

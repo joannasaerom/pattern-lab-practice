@@ -1,3 +1,44 @@
 {
-
+  "items": [
+    {
+      "class": "icon style2 fa-twitter",
+      "label": "Twitter",
+      "link": "#"
+    },
+    {
+      "class": "icon style2 fa-facebook",
+      "label": "Facebook",
+      "link": "#"
+    },
+    {
+      "class": "icon style2 fa-instagram",
+      "label": "Instagram",
+      "link": "#"
+    },
+    {
+      "class": "icon style2 fa-dribbble",
+      "label": "Dribble",
+      "link": "#"
+    },
+    {
+      "class": "icon style2 fa-github",
+      "label": "Github",
+      "link": "#"
+    },
+    {
+      "class": "icon style2 fa-500px",
+      "label": "500px",
+      "link": "#"
+    },
+    {
+      "class": "icon style2 fa-phone",
+      "label": "Phone",
+      "link": "#"
+    },
+    {
+      "class": "icon style2 fa-envelope-o",
+      "label": "Email",
+      "link": "#"
+    }
+  ]
 }
