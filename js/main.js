@@ -151,10 +151,6 @@
 				.appendTo($body)
 				.on('click', function(event) {
 					event.stopPropagation();
-<<<<<<< HEAD
-=======
-
->>>>>>> reorganize
 				})
 				.on('click', 'a', function(event) {
 
