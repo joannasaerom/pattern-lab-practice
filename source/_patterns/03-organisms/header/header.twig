@@ -1,9 +1,15 @@
-<header id="header">
-	<div class="inner">
+<header class="header" id="header">
+	<div class="inner header__wrapper">
     {% include "@molecules/branding.twig" %}
-    {% include "@atoms/menu-button.twig" %}
+		<nav>
+			<ul class="header__button-wrapper">
+				<li class="header__button">
+    			{% include "@atoms/menu-button.twig" %}
+				</li>
+			</ul>
+		</nav>
   </div>
 </header>
 {% include "@molecules/nav-sidebar.twig" with {
-	
+
 }%}
