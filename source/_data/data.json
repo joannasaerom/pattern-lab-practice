@@ -21,6 +21,11 @@
     "name": "name",
     "placeholder": "Name"
   },
+  "contact":{
+    "title": "Faker.words(3, true)",
+    "formMethod": "post",
+    "action": "#s"
+  },
 
   "boxStyle": "style1",
   "boxImg": "../../../../images/pic01.jpg",

@@ -1,30 +1,39 @@
-<section>
-	<h2>Get in touch</h2>
-	<form method="post" action="#">
+<section class="contact-form">
+	<h2 class="contact-form__title">{{contact.title}}</h2>
+	<form class="contact-form__form-wrapper" method="{{contact.formMethod}}" action="{{contact.action}}">
 
     {% include '@atoms/input.twig' with {
-      inputClass: 'field half first',
-      inputType: 'text',
-      inputName: 'name',
-      inputPlaceholder: 'Name'
+			input: {
+			class: 'field half first',
+      type: 'text',
+      name: 'name',
+      placeholder: 'Name'
+			}
+
     } %}
 
 		{% include '@atoms/input.twig' with {
-      inputClass: 'field half',
-      inputType: 'email',
-      inputName: 'email',
-      inputPlaceholder: 'Email'
+      input: {
+			class: 'field half',
+      type: 'email',
+      name: 'email',
+      placeholder: 'Email'
+			}
     } %}
 
 		{% include '@atoms/textarea.twig' with {
-      inputClass: 'field',
-      inputName: 'message',
-      inputPlaceholder: 'Message'
+      input: {
+			class: 'field',
+      name: 'message',
+      placeholder: 'Message'
+			}
     } %}
 
 		{% include '@atoms/form-button.twig' with {
-      type: 'submit',
-      buttonText: 'Send'
+      button: {
+			type: 'submit',
+      text: 'Send'
+			}
     } %}
 
 	</form>
