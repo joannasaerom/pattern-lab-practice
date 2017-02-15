@@ -15,10 +15,12 @@
     "link": "#",
     "title": "Faker.words(3, true)"
   },
-  "inputClass": "field half",
-  "inputType": "text",
-  "inputName": "name",
-  "inputPlaceholder": "Name",
+  "input": {
+    "class": "field half",
+    "type": "text",
+    "name": "name",
+    "placeholder": "Name"
+  },
 
   "boxStyle": "style1",
   "boxImg": "../../../../images/pic01.jpg",
