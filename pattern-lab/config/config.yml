@@ -73,6 +73,7 @@ plugins:
           - ../source/_patterns/02-molecules/box-thumbnail
           - ../source/_patterns/02-molecules/branding
           - ../source/_patterns/02-molecules/contact-form
+          - ../source/_patterns/02-molecules/copyright
           - ../source/_patterns/02-molecules/nav-sidebar
           - ../source/_patterns/02-molecules/social-media
       organisms:

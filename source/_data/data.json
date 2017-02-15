@@ -26,6 +26,16 @@
     "formMethod": "post",
     "action": "#s"
   },
+  "copyright": {
+    "items": [
+      {
+      "content": "Faker.words(2, true)"
+      },
+      {
+      "content": "Faker.words(2, true)"
+      }
+    ]
+  },
 
   "boxStyle": "style1",
   "boxImg": "../../../../images/pic01.jpg",
