@@ -1,13 +1,15 @@
-<article class="{{ boxStyle }}">
-	<span class="image">
-		<img src="{{ boxImg }}" alt="{{boxAlt}}" />
+<article class="{{ boxThumbnail.style }} box-thumbnail">
+	<span class="image box-thumbnail__image-wrapper">
+		<img class="box-thumbnail__image" src="{{ boxThumbnail.img }}" alt="{{boxThumbnail.alt}}" />
 	</span>
-  {% if boxLink %}
-	  <a href="{{ boxLink }}">
+  {% if boxThumbnail.link %}
+	  <a class="box-thumbnail__link" href="{{ boxThumbnail.link }}">
   {% endif %}
-		{% if boxTitle %}<h2>{{ boxTitle }}</h2>{% endif %}
-			<div class="content">
-				<p>{{ boxContent }}</p>
+		{% if boxThumbnail.title %}
+			<h2 class="box-thumbnail__title">{{ boxThumbnail.title }}</h2>
+		{% endif %}
+			<div class="box-thumbnail__content content">
+				<p>{{ boxThumbnail.content }}</p>
 			</div>
   {% if boxLink %}
     </a>

@@ -24,7 +24,7 @@
   "contact":{
     "title": "Faker.words(3, true)",
     "formMethod": "post",
-    "action": "#s"
+    "action": "#"
   },
   "copyright": {
     "items": [
@@ -36,19 +36,14 @@
       }
     ]
   },
-
-  "boxStyle": "style1",
-  "boxImg": "../../../../images/pic01.jpg",
-  "boxLink": "http://example.com",
-  "boxTitle": "Magna",
-  "boxContent": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
-  "boxAlt": "test",
-
-
-
-
-
-
+  "boxThumbnail": {
+    "style": "style1",
+    "img": "../../../../images/pic01.jpg",
+    "link": "http://example.com",
+    "title": "Magna",
+    "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+    "alt": "test"
+  },
 
   "pl": true,
   "title": "Faker.words(2, true)",

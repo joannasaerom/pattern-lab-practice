@@ -151,7 +151,7 @@ module.exports = {
   },
   // https://github.com/nfroidure/gulp-iconfont
   icons: {
-    enabled: true,
+    enabled: false,
     src: 'images/icons/src/*.svg',
     dest: 'dest/',
     fontPathPrefix: '',
