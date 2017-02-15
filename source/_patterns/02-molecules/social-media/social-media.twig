@@ -1,8 +1,8 @@
-<section>
-	<h2>Follow</h2>
-	<ul class="icons">
+<section class="social-media">
+	<h2 class="social-media__title">{{title}}</h2>
+	<ul class="icons social-media__wrapper">
 		{% for item in items %}
-			<li>
+			<li class="social-media__icon-wrapper">
 				{% include '@atoms/icons.twig' %}
 			</li>
 		{% endfor %}
