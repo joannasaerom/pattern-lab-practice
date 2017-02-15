@@ -1,9 +1,9 @@
-<nav id="menu">
-	<h2>Menu</h2>
-	<ul>
+<nav class="nav-sidebar" id="menu">
+	<h2 class="nav-sidebar__title">{{title}}</h2>
+	<ul class="nav-sidebar__wrapper">
     {% for item in items %}
-		<li>
-      <a href="{{ url }}"> {{ title }}</a>
+		<li class="nav-sidebar__item-wrapper">
+      <a class="nav-sidebar__item" href="{{ url }}"> {{ title }}</a>
     </li>
     {% endfor %}
 	</ul>
