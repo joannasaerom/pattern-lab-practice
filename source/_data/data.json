@@ -36,7 +36,7 @@
       }
     ]
   },
-  "boxThumbnail": {
+  "boxthumbnail": {
     "style": "style1",
     "img": "../../../../images/pic01.jpg",
     "link": "http://example.com",
