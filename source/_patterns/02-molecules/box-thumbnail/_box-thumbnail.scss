@@ -166,7 +166,7 @@ body:not(.is-touch) .box-thumbnail:hover > .box-thumbnail__image-wrapper {
   background-color: _palette(accent5);
 }
 
-.box-thumbnail__image--blue ::before {
+.box-thumbnail__image--blue > ::before {
     background-color: _palette(accent6);
 }
 
