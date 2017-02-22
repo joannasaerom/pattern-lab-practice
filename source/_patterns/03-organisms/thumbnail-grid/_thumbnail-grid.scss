@@ -8,35 +8,18 @@
   postiion: relative;
   margin: ($gutter * -1) 0 0 ($gutter * -1);
 
-  * + & {
-  	margin-top: _size(element-margin);
-  }
-
 }
 
-body.is-loading .thumbnail-grid {
-  article {
-    @include vendor('transform', 'scale(0.9)');
-    opacity: 0;
-  }
+* + .thumbnail-grid {
+  margin-top: _size(element-margin);
 }
 
-body.is-touch .thumbnail-grid {
-  article {
-    .content {
-      max-height: 15em;
-      opacity: 1;
-    }
-  }
-}
-
+//media queries
 @include breakpoint(large) {
-
   .thumbnail-grid {
 	  $gutter: _size(gutter) * 0.5;
 	  margin: ($gutter * -1) 0 0 ($gutter * -1);
   }
-
 }
 
 @include breakpoint(medium) {
@@ -58,5 +41,4 @@ body.is-touch .thumbnail-grid {
 	  $gutter: _size(gutter) * 0.5;
 	  margin: 0;
   }
-
 }
