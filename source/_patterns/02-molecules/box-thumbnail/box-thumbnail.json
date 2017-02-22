@@ -1,3 +1,10 @@
 {
-  
+  "boxthumbnail": {
+    "style": "box-thumbnail__image--mint",
+    "img": "../../../../images/pic01.jpg",
+    "link": "http://example.com",
+    "title": "Magna",
+    "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
+    "alt": "test"
+  }
 }

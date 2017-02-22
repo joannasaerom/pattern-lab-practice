@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "style": "box-thumbnail--lightpink",
+      "style": "box-thumbnail__image--lightpink",
       "img": "../../../../images/pic01.jpg",
       "title": "Magna",
       "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
@@ -9,7 +9,7 @@
       "alt": "lorem"
     },
     {
-      "style": "box-thumbnail--blue",
+      "style": "box-thumbnail__image--blue",
       "img": "../../../../images/pic02.jpg",
       "title": "Magna",
       "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",
@@ -17,7 +17,7 @@
       "alt": "lorem"
     },
     {
-      "style": "box-thumbnail--mint",
+      "style": "box-thumbnail__image--mint",
       "img": "../../../../images/pic03.jpg",
       "title": "Magna",
       "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.",

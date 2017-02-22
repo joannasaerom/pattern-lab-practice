@@ -37,7 +37,7 @@
     ]
   },
   "boxthumbnail": {
-    "style": "box-thumbnail--pink",
+    "style": "box-thumbnail__image--mint",
     "img": "../../../../images/pic01.jpg",
     "link": "http://example.com",
     "title": "Magna",
