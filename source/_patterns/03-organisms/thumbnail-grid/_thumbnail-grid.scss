@@ -8,37 +8,36 @@
   postiion: relative;
   margin: ($gutter * -1) 0 0 ($gutter * -1);
 
+  //media queries
+  @include breakpoint(large) {
+
+	  $gutter: _size(gutter) * 0.5;
+	  margin: ($gutter * -1) 0 0 ($gutter * -1);
+
+  }
+
+  @include breakpoint(medium) {
+
+  	$gutter: _size(gutter);
+	  margin: ($gutter * -1) 0 0 ($gutter * -1);
+
+  }
+
+  @include breakpoint(small) {
+
+	  $gutter: _size(gutter) * 0.5;
+	  margin: ($gutter * -1) 0 0 ($gutter * -1);
+
+  }
+
+  @include breakpoint(xsmall) {
+
+	  $gutter: _size(gutter) * 0.5;
+	  margin: 0;
+
+  }
 }
 
 * + .thumbnail-grid {
   margin-top: _size(element-margin);
-}
-
-//media queries
-@include breakpoint(large) {
-  .thumbnail-grid {
-	  $gutter: _size(gutter) * 0.5;
-	  margin: ($gutter * -1) 0 0 ($gutter * -1);
-  }
-}
-
-@include breakpoint(medium) {
-  .thumbnail-grid{
-  	$gutter: _size(gutter);
-	  margin: ($gutter * -1) 0 0 ($gutter * -1);
-  }
-}
-
-@include breakpoint(small) {
-  .thumbnail-grid{
-	  $gutter: _size(gutter) * 0.5;
-	  margin: ($gutter * -1) 0 0 ($gutter * -1);
-  }
-}
-
-@include breakpoint(xsmall) {
-  .thumbnail-grid {
-	  $gutter: _size(gutter) * 0.5;
-	  margin: 0;
-  }
 }

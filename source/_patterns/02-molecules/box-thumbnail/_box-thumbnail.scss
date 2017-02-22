@@ -16,6 +16,39 @@ $ease: 'ease';
 	  @include vendor('transform', 'scale(0.9)');
 	  opacity: 0;
 	}
+
+	//media queries
+	@include breakpoint(large) {
+
+		width: calc(#{(100% / 3)} - #{$gutter * 1});
+		margin: $gutter 0 0 $gutter;
+
+	}
+
+	@include breakpoint(medium) {
+
+		width: calc(#{(100% / 2)} - #{$gutter * 1});
+		margin: $gutter 0 0 $gutter;
+
+	}
+
+	@include breakpoint(small) {
+
+		width: calc(#{(100% / 2)} - #{$gutter * 1});
+		margin: $gutter 0 0 $gutter;
+
+	  &:hover	> .box-thumbnail__image-wrapper {
+  		@include vendor('transform', 'scale(1.0)');
+  	}
+
+	}
+
+	@include breakpoint(xsmall) {
+
+		width: 100%;
+		margin: $gutter 0 0 0;
+	}
+
 }
 
 .box-thumbnail__link {
@@ -168,37 +201,4 @@ body:not(.is-touch) .box-thumbnail:hover > .box-thumbnail__image-wrapper {
 
 .box-thumbnail__image--blue > ::before {
     background-color: _palette(accent6);
-}
-
-//media queries
-@include breakpoint(large) {
-	.box-thumbnail {
-		width: calc(#{(100% / 3)} - #{$gutter * 1});
-		margin: $gutter 0 0 $gutter;
-	}
-}
-
-@include breakpoint(medium) {
-	.box-thumbnail {
-		width: calc(#{(100% / 2)} - #{$gutter * 1});
-		margin: $gutter 0 0 $gutter;
-	}
-}
-
-@include breakpoint(small) {
-	.box-thumbnail {
-		width: calc(#{(100% / 2)} - #{$gutter * 1});
-		margin: $gutter 0 0 $gutter;
-
-	  &:hover	> .box-thumbnail__image-wrapper {
-  		@include vendor('transform', 'scale(1.0)');
-  	}
-	}
-}
-
-@include breakpoint(xsmall) {
-	.box-thumbnail {
-		width: 100%;
-		margin: $gutter 0 0 0;
-	}
 }
