@@ -1,12 +1,12 @@
 <article class="{{ boxthumbnail.class }} box-thumbnail">
-	<span class="image box-thumbnail__image-wrapper">
+	<span class="box-thumbnail__image-wrapper">
 		<img class="box-thumbnail__image" src="{{ boxthumbnail.img }}" alt="{{boxthumbnail.alt}}" />
 	</span>
   {% if boxthumbnail.link %}
 	  <a class="box-thumbnail__link" href="{{ boxthumbnail.link }}">
   {% endif %}
 		{% if boxthumbnail.title %}<h2 class="box-thumbnail__title">{{ boxthumbnail.title }}</h2>{% endif %}
-			<div class="content box-thumbnail__content-wrapper">
+			<div class="box-thumbnail__content-wrapper">
 				<p class="box-thumbnail__content">{{ boxthumbnail.content }}</p>
 			</div>
   {% if boxthumbnail.link %}
