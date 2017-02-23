@@ -78,3 +78,9 @@ button,
     opacity: 0.25;
   }
 }
+
+.actions {
+  position: relative;
+  clear: both;
+  padding-top: (_size(element-margin) * 0.5);
+}
