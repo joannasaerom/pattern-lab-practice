@@ -11,7 +11,6 @@ $ease: 'ease';
 	width: calc(#{(100% / 3)} - #{$gutter * 1});
 	margin: $gutter 0 0 $gutter;
 
-
 	body.is-loading & {
 	  @include vendor('transform', 'scale(0.9)');
 	  opacity: 0;
@@ -19,36 +18,24 @@ $ease: 'ease';
 
 	//media queries
 	@include breakpoint(large) {
-
 		width: calc(#{(100% / 3)} - #{$gutter * 1});
 		margin: $gutter 0 0 $gutter;
-
 	}
 
 	@include breakpoint(medium) {
-
 		width: calc(#{(100% / 2)} - #{$gutter * 1});
 		margin: $gutter 0 0 $gutter;
-
 	}
 
 	@include breakpoint(small) {
-
 		width: calc(#{(100% / 2)} - #{$gutter * 1});
 		margin: $gutter 0 0 $gutter;
-
-	  &:hover	> .box-thumbnail__image-wrapper {
-  		@include vendor('transform', 'scale(1.0)');
-  	}
-
 	}
 
 	@include breakpoint(xsmall) {
-
 		width: 100%;
 		margin: $gutter 0 0 0;
 	}
-
 }
 
 .box-thumbnail__link {
@@ -112,9 +99,6 @@ $ease: 'ease';
 	}
 }
 
-
-
-
 .box-thumbnail__image-wrapper {
   @include vendor('transition', 'transform #{$duration} #{$ease}');
   position: relative;
@@ -158,18 +142,24 @@ $ease: 'ease';
     opacity: 0.25;
     z-index: 2;
   }
-}
 
-body:not(.is-touch) .box-thumbnail:hover > .box-thumbnail__image-wrapper {
-	@include vendor('transform', 'scale(1.1)');
-
-	&:before {
-		background-color: _palette(bg-accent);
-		opacity: 0.35;
+	@include breakpoint(small) {
+	  &:hover {
+  		@include vendor('transform', 'scale(1.0)');
+  	}
 	}
 
-	&:after {
-		opacity: 0;
+	body:not(.is-touch) .box-thumbnail:hover > & {
+		@include vendor('transform', 'scale(1.1)');
+
+		&:before {
+			background-color: _palette(bg-accent);
+			opacity: 0.35;
+		}
+
+		&:after {
+			opacity: 0;
+		}
 	}
 }
 
