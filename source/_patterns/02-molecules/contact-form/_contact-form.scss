@@ -1,3 +1,15 @@
+.contact-form{
+  &:nth-child(1) {
+    width: calc(66% - #{$gutter});
+    margin-right: $gutter;
+  }
+
+  &:nth-child(2) {
+    width: calc(33% - #{$gutter});
+    margin-left: $gutter;
+  }
+}
+
 
 .contact-form__form-wrapper {
   margin: (_size(element-margin) * -0.5) 0 _size(element-margin) 0;
