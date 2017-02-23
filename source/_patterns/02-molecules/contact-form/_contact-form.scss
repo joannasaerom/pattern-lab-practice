@@ -48,3 +48,9 @@
     }
   }
 }
+
+.contact-form__button-wrapper {
+  position: relative;
+  clear: both;
+  padding-top: (_size(element-margin) * 0.5);
+}

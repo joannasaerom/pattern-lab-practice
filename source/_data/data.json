@@ -5,7 +5,7 @@
     "link": "#menu"
   },
   "icon": {
-    "class": "icon style2 fa-twitter",
+    "class": "icons--style2 fa-twitter",
     "label": "Twitter"
   },
   "logo": {
